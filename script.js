@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 3000);
 
             // Отправка в Telegram
-            const token = '7625521672:AAF6V3ytUczITknBhhdrQVMMxYS6_IKKyBQ';
-            const chatId = '1607863061';
+            const token = config.token; 
+            const chatId = config.chatId;
             const message = `Жена выбрала: ${dish}${additivesText}`;
             const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
             fetch(url)
