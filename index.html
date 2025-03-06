@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор завтрака</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="main-title">Дорогая, выбери свой идеальный завтрак!</h1>
+
+    <div class="container">
+        <div class="dish">
+            <img src="Omlet.jpg" alt="Омлет">
+            <h3>🥚 Омлет</h3>
+            <p>Время: 20 мин</p>
+            <div class="additives">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Сыр"> Сыр</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Бекон"> Бекон</label>
+            </div>
+            <button class="select-btn" data-dish="Омлет">Выбрать</button>
+        </div>
+
+        <div class="dish">
+            <img src="Blinchiki.jpg" alt="Блинчики">
+            <h3>🥞 Блинчики</h3>
+            <p>Время: 30 мин</p>
+            <div class="additives">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Мёд"> Мёд</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Сгущёнка"> Сгущёнка</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Нутелла"> Нутелла</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Сметана"> Сметана</label>
+            </div>
+            <button class="select-btn" data-dish="Блинчики">Выбрать</button>
+        </div>
+
+        <div class="dish">
+            <img src="Kasha.jpg" alt="Каша">
+            <h3>🥣 Овсянка</h3>
+            <p>Время: 40 мин</p>
+            <div class="additives">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Мёд"> Мёд</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Сгущёнка"> Сгущёнка</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Банан"> Банан</label>
+            </div>
+            <button class="select-btn" data-dish="Овсянка">Выбрать</button>
+        </div>
+
+        <div class="dish">
+            <img src="ShakShuka.jpg" alt="Шакшука">
+            <h3>🍳 Шакшука</h3>
+            <p>Время: 25 мин</p>
+            <div class="additives" style="display: none;">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+            </div>
+            <button class="select-btn" data-dish="Шакшука">Выбрать</button>
+        </div>
+
+        <div class="dish">
+            <img src="Sirniki.jpg" alt="Сырники">
+            <h3>🥞 Сырники</h3>
+            <p>Время: 30 мин</p>
+            <div class="additives">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Мёд"> Мёд</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Сгущёнка"> Сгущёнка</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Нутелла"> Нутелла</label>
+            </div>
+            <button class="select-btn" data-dish="Сырники">Выбрать</button>
+        </div>
+
+        <div class="dish">
+            <img src="Oladyshki.jfif" alt="Оладушки">
+            <h3>🥞 Оладушки</h3>
+            <p>Время: 30 мин</p>
+            <div class="additives">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Мёд"> Мёд</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Сгущёнка"> Сгущёнка</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Нутелла"> Нутелла</label>
+            </div>
+            <button class="select-btn" data-dish="Оладушки">Выбрать</button>
+        </div>
+
+        <div class="dish">
+            <img src="Bread.jpg" alt="Тосты">
+            <h3>🥞 Тосты</h3>
+            <p>Время: 5 мин</p>
+            <div class="additives">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Творожный Сыр"> Творожный Сыр</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Плавленный Сыр"> Плавленный Сыр</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Помидоры"> Помидоры</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Колбаса"> Колбаса</label>
+                <label><input type="checkbox" class="additive-checkbox" value="Сыр"> Сыр</label>
+            </div>
+            <button class="select-btn" data-dish="Тосты">Выбрать</button>
+        </div>
+        <div class="dish">
+            <img src="Pashot.jpg" alt="Пашот">
+            <h3>🥚 Яйцо Пашот</h3>
+            <p>Время: 5 мин</p>
+            <div class="additives" style="display: none;">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+            </div>
+            <button class="select-btn" data-dish="Яйо Пашот">Выбрать</button>
+        </div>
+        <div class="dish">
+            <img src="renki.jpg" alt="Гренки">
+            <h3>🍞 Гренки</h3>
+            <p>Время: 25 мин</p>
+            <div class="additives" style="display: none;">
+                <label><input type="checkbox" class="additive-checkbox" value="Без добавок" checked> Без добавок</label>
+            </div>
+            <button class="select-btn" data-dish="Гренки">Выбрать</button>
+        </div>
+    </div>
+
+    <div id="result" class="notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
